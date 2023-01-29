@@ -1,13 +1,21 @@
 <!DOCTYPE html>
 <head>
     <meta charset="UTF-8">
-    <title>Kontaktformular</title>
+    <title>Contact Me - Thomas Hürlimann</title>
 </head>
 <body>
-    <h1>Kontaktieren Sie mich</h1>
-    <ul>
-        <li><a href="mailto:thomas.huerlimann@live.com">thomas.huerlimann@live.com</p></li>
-        <li><a href="tel:0041792942109">0041792942109</a></li>
-    </ul>
+    <h1>Contact Me</h1>
+        <ul>
+            <li>thomas@huerlimann.io</li>
+        </ul>
+        <hr>
+    <form action="mailto:thomas@huerlimann.io" method="post" enctype="text/plain">
+        <label>Your Name:</label>
+        <input type="text" name="yourName"><br>
+        <label>Your Email:</label>
+        <input type="email" name="yourEmail"><br>
+        <label>Your Message:</label><br>
+        <textarea name="yourMessage" cols="30" rows="10"></textarea><br>
+        <input type="submit">
 </body>
 </html>
